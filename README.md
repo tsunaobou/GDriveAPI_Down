@@ -1,5 +1,6 @@
 # GDriveAPI_Down
-A Simple Google Drive downloader(using allowed URL)
+A Simple Google Drive downloader(using allowed URL) 
+注意：今の状態ではまだ動きません。アップデートを待ってください。 
 ## Feature
 大量のGoogle Driveのファイル用URL、一つ一つダウンロードしていく作業にうんざりさせられていませんか？  
 このダウンローダーを使って面倒な作業にオサラバしましょう！  
