@@ -3,14 +3,9 @@ from httplib2 import Http
 import os.path
 import re
 import io
-import pickle
 from googleapiclient.discovery import build
-import googleapiclient
-from httplib2 import Http
 from oauth2client import file,client,tools
-from googleapiclient.http import MediaIoBaseDownload,HttpRequest
-import requests
-import json
+from googleapiclient.http import MediaIoBaseDownload
 
 #スコープの設定　今回はダウンロードとメタデータの取得を行うのでこれにしている
 SCOPES = ['https://www.googleapis.com/auth/drive']
